@@ -1,6 +1,6 @@
-# ECG/EEG Signal Classification
+# EEG Signal Classification
 
-The final project consists of comparing multiple sequence processing models to classify samples of ECG signals into n different types of problems...
+The final project consists of comparing multiple sequence processing models to classify samples of EEG signals into n different types of problems...
 
 
 The models are:

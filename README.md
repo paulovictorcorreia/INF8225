@@ -8,4 +8,4 @@ Repository for the projects and tasks of the INF8225 - I.A.:tech. probabilistes 
 
 **TP3** consists of building a language model to translate sentences from english to french using attention transformers and recurrent neural networks such as the classic and the GRU. We compare the performance of the models with different sets of parameters
 
-Finally, **TP4** stands for the final project of the course. We are going to use different architectures to process sequence to classify ECG signals on different classes. We will have all the code used, as well as the data and a report written in the IJCAI format.
+Finally, **TP4** stands for the final project of the course. We are going to use different architectures to process sequence to classify EEG signals on different classes. We will have all the code used, as well as the data and a report written in the IJCAI format.
