@@ -10,3 +10,5 @@ The models are:
 * 1D-CNN
 
 And also some hybrid models used in literature.
+
+Data source: https://www.kaggle.com/datasets/harunshimanto/epileptic-seizure-recognition
