@@ -1,7 +1,7 @@
 # %%
 import pandas as pd
 import numpy as np
-from tslearn.preprocessing import TimeSeriesScalerMeanVariance
+from tslearn.preprocessing import TimeSeriesScalerMeanVariance, TimeSeriesScalerMinMax
 from tslearn.utils import to_time_series_dataset
 from sklearn.model_selection import train_test_split
 
@@ -33,6 +33,7 @@ X_val = to_time_series_dataset(X_val)
 
 # %% normalizing time-series
 scaler = TimeSeriesScalerMeanVariance()
+# scaler = TimeSeriesScalerMinMax()
 
 scaler.fit(X_train)
 X_train = scaler.transform(X_train)
